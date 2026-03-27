@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "up-icon": "../../../../../node-modules/uview-plus/components/u-icon/u-icon",
+    "up-popup": "../../../../../node-modules/uview-plus/components/u-popup/u-popup",
+    "contract-rules-popup": "../../../../../components/contract-rules-popup/contract-rules-popup",
+    "order-paytype": "../order-paytype/order-paytype"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "my-cache-image-index": "../../../../components/cache-image/index",
+    "up-icon": "../../../../node-modules/uview-plus/components/u-icon/u-icon",
+    "up-loading-icon": "../../../../node-modules/uview-plus/components/u-loading-icon/u-loading-icon"
+  }
+}

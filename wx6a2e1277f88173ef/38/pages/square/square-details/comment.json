@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "my-cache-image-index": "../../../components/cache-image/index",
+    "up-tag": "../../../node-modules/uview-plus/components/u-tag/u-tag",
+    "u-line": "../../../node-modules/uview-plus/components/u-line/u-line",
+    "up-loadmore": "../../../node-modules/uview-plus/components/u-loadmore/u-loadmore"
+  }
+}

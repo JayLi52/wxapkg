@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "my-list-cell": "../../../../components/list/cell",
+    "my-list-index": "../../../../components/list/index",
+    "load-more": "../../../../components/load-more/index",
+    "message-item": "./message-item"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "up-swiper": "../../node-modules/uview-plus/components/u-swiper/u-swiper",
+    "my-cache-image-index": "../cache-image/index"
+  }
+}

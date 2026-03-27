@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "control-emoji": "./control-emoji",
+    "control-intro": "./control-intro",
+    "control-menu": "./control-menu"
+  }
+}

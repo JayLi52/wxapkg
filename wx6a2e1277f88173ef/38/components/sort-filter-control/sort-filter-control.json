@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "filter-button": "../filter-button/filter-button",
+    "sort-indicator": "../sort-indicator/sort-indicator",
+    "sort-item-text": "../sort-item-text/sort-item-text",
+    "sort-select": "../sort-select/sort-select"
+  }
+}

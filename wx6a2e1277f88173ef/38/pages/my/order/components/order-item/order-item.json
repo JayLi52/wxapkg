@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "my-cache-image-index": "../../../../../components/cache-image/index",
+    "order-status-label": "../order-status-label/order-status-label",
+    "order-operation": "./order-operation"
+  }
+}

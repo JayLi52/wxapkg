@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "my-cache-image-index": "../cache-image/index",
+    "up-popup": "../../node-modules/uview-plus/components/u-popup/u-popup"
+  }
+}

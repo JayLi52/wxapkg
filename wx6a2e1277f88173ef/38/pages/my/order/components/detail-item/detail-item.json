@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "my-cache-image-index": "../../../../../components/cache-image/index"
+  }
+}

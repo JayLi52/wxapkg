@@ -1,0 +1,14 @@
+{
+  "component": true,
+  "usingComponents": {
+    "up-divider": "../../node-modules/uview-plus/components/u-divider/u-divider",
+    "up-avatar": "../../node-modules/uview-plus/components/u-avatar/u-avatar",
+    "up-checkbox": "../../node-modules/uview-plus/components/u-checkbox/u-checkbox",
+    "up-icon": "../../node-modules/uview-plus/components/u-icon/u-icon",
+    "up-checkbox-group": "../../node-modules/uview-plus/components/u-checkbox-group/u-checkbox-group",
+    "up-textarea": "../../node-modules/uview-plus/components/u-textarea/u-textarea",
+    "up-button": "../../node-modules/uview-plus/components/u-button/u-button",
+    "my-cache-image-index": "../cache-image/index",
+    "up-action-sheet": "../../node-modules/uview-plus/components/u-action-sheet/u-action-sheet"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "tianditu-static-map": "../../../../components/tk-map/tianditu-static-map"
+  }
+}

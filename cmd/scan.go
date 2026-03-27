@@ -22,7 +22,7 @@ var scanCmd = &cobra.Command{
 			return
 		}
 
-		var regAppId = regexp.MustCompile(`(wx[0-9a-f]{16})`)
+		var regAppId = regexp.MustCompile(`(wx[0-9a-f]{16}|wxid_[0-9a-zA-Z_]+)`)
 
 		var files []os.DirEntry
 		if files, err = os.ReadDir(root); err != nil {

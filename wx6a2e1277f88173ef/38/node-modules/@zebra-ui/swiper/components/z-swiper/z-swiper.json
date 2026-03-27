@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "navigation": "./z-navigation",
+    "pagination": "./z-pagination",
+    "scrollbar": "./z-scrollbar",
+    "shadow": "../z-swiper-shadow/z-shadow"
+  }
+}

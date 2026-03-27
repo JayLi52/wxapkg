@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "up-icon": "../../../../../node-modules/uview-plus/components/u-icon/u-icon",
+    "up-count-down": "../../../../../node-modules/uview-plus/components/u-count-down/u-count-down",
+    "up-popup": "../../../../../node-modules/uview-plus/components/u-popup/u-popup",
+    "detail-qrcode": "../detail-qrcode/detail-qrcode",
+    "order-paytype": "../order-paytype/order-paytype"
+  }
+}

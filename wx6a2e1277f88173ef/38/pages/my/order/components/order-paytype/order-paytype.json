@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "up-radio": "../../../../../node-modules/uview-plus/components/u-radio/u-radio",
+    "up-radio-group": "../../../../../node-modules/uview-plus/components/u-radio-group/u-radio-group",
+    "title": "../../../../../components/title/title"
+  }
+}

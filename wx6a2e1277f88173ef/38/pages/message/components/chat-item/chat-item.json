@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "chat-image": "./chat-image",
+    "chat-location": "./chat-location",
+    "chat-service": "./chat-service",
+    "chat-share": "./chat-share",
+    "chat-subsidy": "./chat-subsidy"
+  }
+}

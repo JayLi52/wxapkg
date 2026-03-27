@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "up-avatar": "../../../node-modules/uview-plus/components/u-avatar/u-avatar",
+    "up-tag": "../../../node-modules/uview-plus/components/u-tag/u-tag",
+    "up-loadmore": "../../../node-modules/uview-plus/components/u-loadmore/u-loadmore",
+    "up-empty": "../../../node-modules/uview-plus/components/u-empty/u-empty",
+    "my-list-index": "../../../components/list/index"
+  }
+}

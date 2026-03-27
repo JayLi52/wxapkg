@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "up-parse": "../../../node-modules/uview-plus/components/u-parse/u-parse",
+    "up-divider": "../../../node-modules/uview-plus/components/u-divider/u-divider",
+    "comment": "./comment"
+  }
+}

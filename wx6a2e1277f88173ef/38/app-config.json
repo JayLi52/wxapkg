@@ -1,0 +1,629 @@
+{
+  "subPackages": [
+    {
+      "root": "package-sub/",
+      "name": "package-sub"
+    }
+  ],
+  "entryPagePath": "pages/square/square.html",
+  "pages": [
+    "pages/square/square",
+    "pages/home/home",
+    "pages/message/message",
+    "pages/my/my/index",
+    "pages/my/my/user",
+    "pages/my/my/follow",
+    "pages/my/my/report",
+    "pages/my/my/visitor-list",
+    "pages/square/square-search/index",
+    "pages/square/square-search/search-list",
+    "pages/home/select-address/select-address",
+    "pages/home/select-address/select-address-list",
+    "pages/home/select-address/search-address",
+    "pages/home/select-address/select-all-address",
+    "pages/square/square-details/shortVideo",
+    "pages/square/square-details/index",
+    "pages/square/detail-share",
+    "pages/home/details/detail",
+    "pages/home/details/comment/index",
+    "pages/square/topi-details/index",
+    "pages/web-view/web-view",
+    "pages/my/settings/setting",
+    "pages/my/settings/teenage-mode",
+    "pages/my/settings/certification",
+    "pages/home/home-search",
+    "pages/my/settings/about",
+    "pages/common/login/login-mp",
+    "pages/message/chat-room",
+    "pages/message/favouriteCommentList",
+    "pages/message/followers",
+    "pages/message/chat-skill-list",
+    "pages/message/chat-skill-fare",
+    "pages/common/orders/order",
+    "pages/common/orders/order-time",
+    "pages/common/orders/hairstyle",
+    "pages/common/orders/order-confirm",
+    "pages/common/orders/order-finish",
+    "pages/common/orders/edit-remark",
+    "pages/common/orders/edit-example",
+    "pages/common/evaluation/evaluation",
+    "pages/common/login/password",
+    "pages/common/login/cancel-lation",
+    "pages/my/history/index",
+    "pages/my/order/order-list",
+    "pages/my/order/order-detail",
+    "pages/my/order/order-refund",
+    "pages/my/edit-profile/edit-profile",
+    "pages/my/edit-profile/input-signatures",
+    "pages/my/settings/account-security",
+    "pages/my/settings/administrators",
+    "pages/my/settings/searchReferral",
+    "pages/my/settings/address/address",
+    "pages/my/settings/blackList",
+    "pages/my/settings/address/address-detail",
+    "pages/my/wallet/wallet",
+    "pages/my/settled-platform/settled-cate",
+    "pages/my/wallet/withdrawal-detail",
+    "pages/my/wallet/wallet-detail",
+    "pages/common/fullscreen-modal/settlein-tip-modal",
+    "package-sub/pages/activity/activity-list",
+    "package-sub/pages/activity/invite-order",
+    "package-sub/pages/activity/reward-ranking",
+    "package-sub/pages/organ/organManage/index",
+    "package-sub/pages/organ/organManage/organDetail",
+    "package-sub/pages/organ/organManage/infoOne",
+    "package-sub/pages/organ/organManage/infoTwo",
+    "package-sub/pages/organ/organManage/infoThree",
+    "package-sub/pages/organ/organManage/organSettleIn",
+    "package-sub/pages/organ/organInvitation/invitationStepOne",
+    "package-sub/pages/organ/organInvitation/invitationStepTwo",
+    "package-sub/pages/organ/organInvitation/invitationStepThree",
+    "package-sub/pages/organ/organInvitation/invitationStepFour",
+    "package-sub/pages/organ/organManage/addOrganUser",
+    "package-sub/pages/organ/organInvitation/invitationSignatory",
+    "package-sub/pages/organ/organInvitation/invitationSignatoryStepOne",
+    "package-sub/pages/organ/organManage/organUserList",
+    "package-sub/pages/organ/organManage/joinOrgan",
+    "package-sub/pages/organ/organManage/organAssessmentList",
+    "package-sub/pages/organ/assessManage/index",
+    "package-sub/pages/organ/assessManage/modifyCampusList",
+    "package-sub/pages/organ/assessManage/offlineAssess",
+    "package-sub/pages/coupon/coupon",
+    "package-sub/pages/coupon/coupon-order",
+    "package-sub/pages/activity/activity-detail"
+  ],
+  "page": {
+    "pages/square/square.html": {
+      "window": {
+        "navigationBarTitleText": "社区",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+      }
+    },
+    "pages/home/home.html": {
+      "window": {
+        "navigationBarTitleText": "首页",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": false
+      }
+    },
+    "pages/message/message.html": {
+      "window": {
+        "navigationBarTitleText": "消息",
+        "navigationStyle": "custom",
+        "backgroundColor": "#fff",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    "pages/my/my/index.html": {
+      "window": {
+        "navigationBarTitleText": "我的",
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    "pages/my/my/user.html": {
+      "window": {
+        "navigationBarTitleText": "用户",
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    "pages/my/my/follow.html": {
+      "window": {
+        "navigationBarTitleText": "关注",
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    "pages/my/my/report.html": {
+      "window": {
+        "navigationBarTitleText": "举报",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    "pages/my/my/visitor-list.html": {
+      "window": {
+        "navigationBarTitleText": "访客列表",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    "pages/square/square-search/index.html": {
+      "window": {
+        "navigationBarTitleText": "搜素",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+      }
+    },
+    "pages/square/square-search/search-list.html": {
+      "window": {
+        "navigationBarTitleText": "搜素",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+      }
+    },
+    "pages/home/select-address/select-address.html": {
+      "window": {
+        "navigationStyle": "custom"
+      }
+    },
+    "pages/home/select-address/select-address-list.html": {
+      "window": {
+        "navigationStyle": "custom"
+      }
+    },
+    "pages/home/select-address/search-address.html": {
+      "window": {
+        "navigationBarTitleText": "搜索地址",
+        "navigationStyle": "custom"
+      }
+    },
+    "pages/home/select-address/select-all-address.html": {
+      "window": {
+        "navigationBarTitleText": "全部地址",
+        "navigationStyle": "custom"
+      }
+    },
+    "pages/square/square-details/shortVideo.html": {
+      "window": {
+        "navigationBarTitleText": "动态视频",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+      }
+    },
+    "pages/square/square-details/index.html": {
+      "window": {
+        "navigationBarTitleText": "动态详情",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+      }
+    },
+    "pages/square/detail-share.html": {
+      "window": {
+        "navigationBarTitleText": "聊天列表",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+      }
+    },
+    "pages/home/details/detail.html": {
+      "window": {
+        "navigationBarTitleText": "技能详情",
+        "navigationStyle": "custom"
+      }
+    },
+    "pages/home/details/comment/index.html": {
+      "window": {
+        "navigationBarTitleText": "全部评论"
+      }
+    },
+    "pages/square/topi-details/index.html": {
+      "window": {
+        "navigationBarTitleText": "话题详情",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+      }
+    },
+    "pages/web-view/web-view.html": {
+      "window": {}
+    },
+    "pages/my/settings/setting.html": {
+      "window": {
+        "navigationBarTitleText": "设置"
+      }
+    },
+    "pages/my/settings/teenage-mode.html": {
+      "window": {
+        "navigationBarTitleText": "青少年模式",
+        "navigationStyle": "custom"
+      }
+    },
+    "pages/my/settings/certification.html": {
+      "window": {
+        "navigationBarTitleText": "社区公约"
+      }
+    },
+    "pages/home/home-search.html": {
+      "window": {
+        "navigationBarTitleText": "搜索",
+        "navigationStyle": "custom"
+      }
+    },
+    "pages/my/settings/about.html": {
+      "window": {
+        "navigationBarTitleText": "关于沙梨"
+      }
+    },
+    "pages/common/login/login-mp.html": {
+      "window": {}
+    },
+    "pages/message/chat-room.html": {
+      "window": {
+        "navigationBarTitleText": "聊天室",
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    "pages/message/favouriteCommentList.html": {
+      "window": {
+        "navigationBarTitleText": "赞和收藏",
+        "navigationStyle": "custom"
+      }
+    },
+    "pages/message/followers.html": {
+      "window": {
+        "navigationBarTitleText": "粉丝"
+      }
+    },
+    "pages/message/chat-skill-list.html": {
+      "window": {
+        "navigationBarTitleText": "我的技能",
+        "navigationStyle": "custom"
+      }
+    },
+    "pages/message/chat-skill-fare.html": {
+      "window": {
+        "navigationBarTitleText": "发送车补"
+      }
+    },
+    "pages/common/orders/order.html": {
+      "window": {
+        "navigationBarTitleText": "确认订单",
+        "navigationStyle": "custom"
+      }
+    },
+    "pages/common/orders/order-time.html": {
+      "window": {
+        "navigationBarTitleText": "选择跟妆时间"
+      }
+    },
+    "pages/common/orders/hairstyle.html": {
+      "window": {
+        "navigationBarTitleText": "选发型"
+      }
+    },
+    "pages/common/orders/order-confirm.html": {
+      "window": {
+        "navigationBarTitleText": "确认订单"
+      }
+    },
+    "pages/common/orders/order-finish.html": {
+      "window": {
+        "navigationBarTitleText": "订单支付",
+        "navigationStyle": "custom"
+      }
+    },
+    "pages/common/orders/edit-remark.html": {
+      "window": {
+        "navigationBarTitleText": "备注"
+      }
+    },
+    "pages/common/orders/edit-example.html": {
+      "window": {
+        "navigationBarTitleText": "参考图"
+      }
+    },
+    "pages/common/evaluation/evaluation.html": {
+      "window": {
+        "navigationBarTitleText": "写评价"
+      }
+    },
+    "pages/common/login/password.html": {
+      "window": {
+        "navigationBarTitleText": "修改密码"
+      }
+    },
+    "pages/common/login/cancel-lation.html": {
+      "window": {
+        "navigationBarTitleText": "注销账号",
+        "backgroundColor": "#ffffff",
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    "pages/my/history/index.html": {
+      "window": {
+        "navigationBarTitleText": "浏览记录"
+      }
+    },
+    "pages/my/order/order-list.html": {
+      "window": {
+        "navigationBarTitleText": "我的订单",
+        "navigationStyle": "custom"
+      }
+    },
+    "pages/my/order/order-detail.html": {
+      "window": {
+        "navigationBarTitleText": "订单详情",
+        "navigationStyle": "custom"
+      }
+    },
+    "pages/my/order/order-refund.html": {
+      "window": {
+        "navigationBarTitleText": "退款申请"
+      }
+    },
+    "pages/my/edit-profile/edit-profile.html": {
+      "window": {
+        "navigationBarTitleText": "编辑资料"
+      }
+    },
+    "pages/my/edit-profile/input-signatures.html": {
+      "window": {
+        "navigationBarTitleText": "个人简介"
+      }
+    },
+    "pages/my/settings/account-security.html": {
+      "window": {
+        "navigationBarTitleText": "账号与安全"
+      }
+    },
+    "pages/my/settings/administrators.html": {
+      "window": {
+        "navigationBarTitleText": "隐私设置"
+      }
+    },
+    "pages/my/settings/searchReferral.html": {
+      "window": {
+        "navigationBarTitleText": "个性化内容推荐设置"
+      }
+    },
+    "pages/my/settings/address/address.html": {
+      "window": {
+        "navigationBarTitleText": "地址管理"
+      }
+    },
+    "pages/my/settings/blackList.html": {
+      "window": {
+        "navigationBarTitleText": "黑名单用户"
+      }
+    },
+    "pages/my/settings/address/address-detail.html": {
+      "window": {
+        "navigationBarTitleText": "修改地址",
+        "navigationStyle": "custom"
+      }
+    },
+    "pages/my/wallet/wallet.html": {
+      "window": {
+        "navigationBarTitleText": "我的钱包"
+      }
+    },
+    "pages/my/settled-platform/settled-cate.html": {
+      "window": {
+        "navigationBarTitleText": "入驻平台"
+      }
+    },
+    "pages/my/wallet/withdrawal-detail.html": {
+      "window": {
+        "navigationBarTitleText": "提现明细"
+      }
+    },
+    "pages/my/wallet/wallet-detail.html": {
+      "window": {
+        "navigationBarTitleText": "收益明细"
+      }
+    },
+    "pages/common/fullscreen-modal/settlein-tip-modal.html": {
+      "window": {
+        "navigationBarTitleText": "入驻平台合约",
+        "navigationStyle": "custom"
+      }
+    },
+    "package-sub/pages/activity/activity-list.html": {
+      "window": {
+        "navigationBarTitleText": "活动列表",
+        "navigationStyle": "custom"
+      }
+    },
+    "package-sub/pages/activity/invite-order.html": {
+      "window": {
+        "navigationStyle": "custom"
+      }
+    },
+    "package-sub/pages/activity/reward-ranking.html": {
+      "window": {
+        "navigationStyle": "custom"
+      }
+    },
+    "package-sub/pages/organ/organManage/index.html": {
+      "window": {
+        "navigationBarTitleText": "机构管理",
+        "navigationStyle": "custom"
+      }
+    },
+    "package-sub/pages/organ/organManage/organDetail.html": {
+      "window": {
+        "navigationBarTitleText": "机构详情"
+      }
+    },
+    "package-sub/pages/organ/organManage/infoOne.html": {
+      "window": {
+        "navigationBarTitleText": "完善机构信息"
+      }
+    },
+    "package-sub/pages/organ/organManage/infoTwo.html": {
+      "window": {
+        "navigationBarTitleText": "完善证件信息"
+      }
+    },
+    "package-sub/pages/organ/organManage/infoThree.html": {
+      "window": {
+        "navigationBarTitleText": "完善银行信息"
+      }
+    },
+    "package-sub/pages/organ/organManage/organSettleIn.html": {
+      "window": {
+        "navigationBarTitleText": "机构入驻信息",
+        "navigationStyle": "custom"
+      }
+    },
+    "package-sub/pages/organ/organInvitation/invitationStepOne.html": {
+      "window": {
+        "navigationBarTitleText": "化妆师公会合作邀约",
+        "navigationStyle": "custom"
+      }
+    },
+    "package-sub/pages/organ/organInvitation/invitationStepTwo.html": {
+      "window": {
+        "navigationBarTitleText": "化妆师公会合作邀约",
+        "navigationStyle": "custom"
+      }
+    },
+    "package-sub/pages/organ/organInvitation/invitationStepThree.html": {
+      "window": {
+        "navigationBarTitleText": "化妆师公会合作邀约",
+        "navigationStyle": "custom"
+      }
+    },
+    "package-sub/pages/organ/organInvitation/invitationStepFour.html": {
+      "window": {
+        "navigationBarTitleText": "化妆师公会合作邀约",
+        "navigationStyle": "custom"
+      }
+    },
+    "package-sub/pages/organ/organManage/addOrganUser.html": {
+      "window": {
+        "navigationBarTitleText": "添加师资力量"
+      }
+    },
+    "package-sub/pages/organ/organInvitation/invitationSignatory.html": {
+      "window": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom"
+      }
+    },
+    "package-sub/pages/organ/organInvitation/invitationSignatoryStepOne.html": {
+      "window": {
+        "navigationBarTitleText": "邀请签约人",
+        "navigationStyle": "custom"
+      }
+    },
+    "package-sub/pages/organ/organManage/organUserList.html": {
+      "window": {
+        "navigationBarTitleText": "人员列表",
+        "navigationStyle": "custom"
+      }
+    },
+    "package-sub/pages/organ/organManage/joinOrgan.html": {
+      "window": {
+        "navigationBarTitleText": "加入机构",
+        "navigationStyle": "custom"
+      }
+    },
+    "package-sub/pages/organ/organManage/organAssessmentList.html": {
+      "window": {
+        "navigationBarTitleText": "机构列表",
+        "navigationStyle": "custom"
+      }
+    },
+    "package-sub/pages/organ/assessManage/index.html": {
+      "window": {
+        "navigationBarTitleText": "考核管理"
+      }
+    },
+    "package-sub/pages/organ/assessManage/modifyCampusList.html": {
+      "window": {
+        "navigationBarTitleText": "考核管理多校区"
+      }
+    },
+    "package-sub/pages/organ/assessManage/offlineAssess.html": {
+      "window": {
+        "navigationBarTitleText": "线下考核"
+      }
+    },
+    "package-sub/pages/coupon/coupon.html": {
+      "window": {
+        "navigationBarTitleText": "优惠券"
+      }
+    },
+    "package-sub/pages/coupon/coupon-order.html": {
+      "window": {
+        "navigationBarTitleText": "可用优惠券"
+      }
+    },
+    "package-sub/pages/activity/activity-detail.html": {
+      "window": {
+        "navigationBarTitleText": "活动详情"
+      }
+    }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "global": {
+    "window": {
+      "navigationBarTextStyle": "black",
+      "navigationBarTitleText": "沙梨",
+      "navigationBarBackgroundColor": "#fff",
+      "backgroundColor": "#fff",
+      "onReachBottomDistance": 100
+    }
+  },
+  "networkTimeout": {
+    "uploadFile": 600000
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#56B6F3",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home.html",
+        "text": "预约",
+        "iconData": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAV1BMVEUAAABiYmJiYmJQUFBiYmJgYGBgYGBiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJgYGBiYmJjY2NhYWFgYGBcXFxiYmJiYmJiYmJiYmJgYGBdXV1iYmLfyURDAAAAHHRSTlMAv/YF4EAgtYDTylfnl4pHKaZPOS8Xn3VsZRQNRll4jwAAAUNJREFUSMfllFmCgyAQREGiRhFw3+L9zznTZdwwIvObqS+7qcfWtOxbFfUF520f+dqLYJoVeyES9llBee/vpoO6O/8TtqQzpkvw+XTahcJGhjkasDklHP4YfrPEBkR8Sbw4jWfVlqkyEK/P/ial0Ud0uOIHjtQs8YexyMomyyy2cvj5afWRg8jtfGifz76J0Jof/gL+E1GAqA857FSzC2mcbj+bRE1v6i93CdqmYg4VdMBdTPXJXUBNFd3FtKL7kcHhCUD/AWiqavwDUKIz0tITEO30lhJegJ5WaR+gxmNOUxCVB9C+G6ymFmw9APLhuIbIewDfYn1wnoArC1FHjy5gpIvYAXQlgwvoqZBWzwb1NZAHVs83ARG6DH91BChjNIYbJNclN23AQYP9I3ED55+QzFxAJtlJQiq+iEFLFCsp2DfpB8ClOJnQNB26AAAAAElFTkSuQmCC",
+        "selectedIconData": "iVBORw0KGgoAAAANSUhEUgAAADMAAAA2CAMAAABdslGrAAABX1BMVEUAAABctPdLmu5ar/FYr/ldr/NesfBesfRWsfJbsPFcsPBdsvJdsPRcsPGgk/dcr/NdsfNfsfOikvi40florfRbrfGZl/eRm/e9zvpes/JfsfOclfaVmPVYtfKsjfhcs/O/zPpwqfRVtvOYl/eBovaTmfZ6pfamkPhatPNprPV9o/ZzqPStjPiZlfaNnfdgsfOhk/iEoPWsj/lnrfJYsvKJoPd5pPSjkfZvqvSal/eSm/dhsfRcs/OsjvlnrvRqrPRVtvN9pPWJnvavjPhzqPWVmPedlfegk/iikvmlkfeokPiNnPeFoPZZtfOAovaCofZ5pfRawv92p/Z5pvXq8P6VoPh1pvXm7P3d5f3v8/7i6f2Lnvb09/7V3fzJ2fv3+v+0kf/a4fzR4PzM1fv////X4/ytl//M3fzC1/vG1ftZuPdavfzP2/t9qvl0sv+NpPtvsvy4zvqetfeTsPd2nvSa9oCaAAAAOHRSTlMACwQUBxAdMz4pPSIaGHQ5LCds19cv2NfXq25KKvHo5dfXy8fDnJaTeEtD+e/p38C1rqachXlfVoEcMd4AAAJqSURBVEjH5dRZe9JAFAZgskwoJDQEBdm673Xf29IGurjUVo2lWBUXkBaRpXX7/48zZMLJpBOWKy/87rh4n++cw0DgP8mjxfn5uw+zI4jFTmf71evDnYtbq0MK9fpRcbtrygelhaHI6vneW2p2DjY25sTBZOV8be/IAvMkMRClf6xhU7TobNis30T91f18HhsyG5j1p4o/EgMp08QGZqNmP+tLxNs5ajw9z+oZHyNP5XKmPZtlQQ8xz+sxboswtYmNCfu4zX59nEPU5iY1sE8ZzIvKvUtEar3smjx7AzBbW0ve9WcLtjFhH6+pZERm/XCTGLgBr2d3MuBCopwqMD1FrqlkZRGIOEEM7ONjHgsynFl+wxq6T5k1uzEwsiCAgdk4RhKc4QSEwHBvDUZ2RpOQt8cabCSP8ekZjyBqZDC9d23xjYYEEQz0jG5MmG1IA7+5P79/XRyWR5nN+nmKUy2P0tP40s1paXjT+UhzfMnIfrN9fe+k5N8TYXuOe+ljJI85cdKvp8CYkw9OWBNzG22W2eddL4ypZNxGWWZ6znCqZ1Uc1qg9I2ITbzJ3I/lEwpgl1fWukWKkW66ebzjtdttjboTAiDLS1OiDFpjPdmq1mstM6lFVEsBE1GgwPdF0TKPR+I7jNvU7etBQ4P+AHMGI6/py6irJzMwVkmQyOT19DSeRSMwtrOjBKB6tZ0QBF4WCenjMP4QodDRaRFA8qOthnLEwhH7WbWK/UFpEvlaFKJ/EowYhpAYQadJUVTVCnBiGqioRTGgNIPxSI5rCjabZwiaAiEJIQhInCAkClDBVMmb8gOA4vwT+Qf4CeBdknjU4KMIAAAAASUVORK5CYII="
+      },
+      {
+        "pagePath": "pages/square/square.html",
+        "text": "社区",
+        "iconData": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAASFBMVEUAAABiYmJiYmJXV1diYmJhYWFgYGBiYmJiYmJiYmJiYmJiYmJiYmJiYmJeXl5dXV1iYmJhYWFgYGBiYmJiYmJiYmJhYWFiYmIEJue+AAAAF3RSTlMA7EkJgEMQ9ti2mat7by0ZxVUfu49rNOHBescAAAF+SURBVEjH1VXZtoMgDETWoqK1Lv3/P70NVgcoWI/3qXnRYCZMFhP2I6IXPgy8E+eseX17vuVW828gLatnJFWrj+wdzAGZi+aP+87FNo3dmd0feXtVrR534kLV7yOVDdb4bzLiLJw/NTzj33+xfXreNx6hPvj7y1uWkdbfnMbh43WF3PnI47MZ/rN3pN40EWpYUSyR0okLE8bbcd6FkZNDCV2Q7tL+qCa4kKQDwEkVUQFRMHBGMeqXVgcF2cWorAmjrlGgS75Huz51QOK2h0CfNkYTKfKlCenfQpsN3YXoLR+IFCyW4DoLMMWP5HV7KRD1gKpFYDYGRtSDQwEwosAJ4Cql5VzQAOswrTJO65SkHmi+odeC2XF99lv9weJKa3A0QaH5BJoPkaL7pyodIA7JQz6OfiCDPxiRWlaUBpxx5bchMF8YM9cHGdLffI5Ki4LkhrFxIrNgDD8c92rrVo5x/7+FAplzK8sdLsU2gqA/yiLitctOiehosS+a/Yb8ARF5Mkku4+THAAAAAElFTkSuQmCC",
+        "selectedIconData": "iVBORw0KGgoAAAANSUhEUgAAADYAAAA3CAMAAABwx0lKAAABklBMVEUAAABZsvdbrfNSsPZdsPJZs/NbsPVkr/RcsfJbsfNcsPJdsfJcr/Ncr/RbsPFdsPRdsPRfsPShk/hYtPRds/RrqfNypvVesvNYtfOAovWtjvl7pfWsjvh0p/SikvlgsvN4o/SDoviik/eOnPatjflmr/RrrPSoj/dyqfSOnPZVtPJesvKFn/SZlvejkfhasvFlrfOclviek/iSmfhVtvOlkfielPhVtvJtrPWujfmalvZWtvOikPd/ovWUmvhkr/Ruq/R6pfWmkfhds/OJn/ZzqPWblveOnPaYmPeqjvhYtfOVmfdorfSelPhgsfOgk/iujfmikviAovaCoPaFn/Z+o/WSmvd2p/X///9Vt/NqrPRqrPP4+v++0vvD0PuInvXm7/3p6/7W5fzP1vzL3/vH2vvJ0/t0rvX09f/t9P7w8v7W2vzx9v7b6f3i5P3f4vzP4vzE1fvJzfvg7P3a3fzBy/vA1/q6vPqnv/mnt/iipfiSsveCsvaIqvaQqfaxy/m5xfmwtvmdufiOvfehrveWpfdpdxFdAAAAP3RSTlMABw4EGgoTFiYuOyA2MkEjRSqOUo5WQ/DU0sy/sXpkYlFD8eXh383GraOemYmIe3NsUkgx9/Hv5eLcycGlmSYnSBnKAAADP0lEQVRIx9XVV3sSQRQGYLdQtgMBYnrvPbG3NAJpIpaYYNSQYgiJFEnvRf3fnhlY9mwWRO/0u+Hqfb4zc5bdO/91bO4mf2PTiOMvCKfU1YyPL7x5+y4QaOka+jPK+NqnphZzbCUQCr2f87wo3+RqGxsrsABl09N9ZRrZnvllKwsGHwz/Tmlto0UYuJev+pmSAzorR0fnP1jbCHvtYUooqTJ8i63oQwKbQA4r+93JcNgypMEm6pkiivFOToZLDwlsZsTqGHW2LKtmuduKvZtny5azzQXzbKaeMTvOVjF7q+384vQCtVHWyjKWMhM7jS2RbP4kbQUWGbIxpjIlOouGXFxb0nONh4zUQh0uG8AsnlgycoiGjER4VMfY2Kc5FqZDZj6SbCe26O8JZsMsZo5o1Djb2VdI7Bxucn8LktLPBirSzzJcYdOsEkVDbiQSiVhub8fbkBPUVmsvTMnZWBW1xWOQ8/ze0qurq4eIdThYpjCjvSLPwoTt7u4m9afkClgWsWrEWGCoLZlMrunsOJVKZYMGe8zD4XTmQGw5vgbR2X46nT5ErJpnbQZTTVeSyWQu82xnb2/vBLFa3o6YgNn3DcgNZes7kGm0AA8wpsCkh2hv8S80RzdX6yTXeN31pjatGz9cZwcHB98gmyRZ2LbBmsxtDZhNnX0i+QzJ7uM/TqTVidvsknLP/Me5zLMfIRPzOHkWMd7ZTVlYZ+MLp0dHxxeBkJn5NZ41Hi5gLqOt9EvhmSA5DEbuROihzPrCw8wPRyPMuBO3WFm0DQ/ZJ6CjASNTCg2l2vQFdMhuY0YIR+tkL26zsvt+KKNbw3WaIHotbWjI5kaFlpEZcZ1TEb2lPx3NjbKg6Rdi1LG85pbFAczw9+2JS4YRUZmxck2QxYr2ot+AXhUUjEhOhsPpTh18ZBmyy6fKilMy7gOPSZ0iqq7BTtzW0utTRegChUbEzgHnI4Wqq6Gus6aqqqrmeZ3PBUhBqmif5BQUWRRVoCTwK0KVW4PbQMrs4HxQSKAMlIY0uaGK3AZWOBwtBOgWBIVGAEOQ3VAlHIGSpDlz0SQeoTIQZtUDBhBVZSCRxNpBgDFQOQiShhJsyluOYzgg/0B+AWxXopT/B6VxAAAAAElFTkSuQmCC"
+      },
+      {
+        "pagePath": "pages/message/message.html",
+        "text": "消息",
+        "iconData": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAV1BMVEUAAABgYGBiYmJiYmJjY2NiYmJiYmJgYGBVVVViYmJiYmJiYmJiYmJiYmJiYmJiYmJeXl5gYGBiYmJiYmJgYGBiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmITNIhxAAAAHHRSTlMAH9+vT/e/PwjPS9pHyJLmFxB3YCu1oIpvN4HrRcw+1gAAASBJREFUSMft1NtuhCAQBuDBA4yIeD7slvd/zjqIbDVR6EWTZrPfFSTz6wxG4D9jKrukGJzgUppbyYKHpxcmqGDgNYmJkDQ+kNI+5+klnlPFCM5Au7SFG81INQ+30+u6QriF1Vqk3YbWEgIkPdWtaWQGAYzG/gQ+gb8NVIWnogKj2eUsKsDqPdBFzsDSnMpLGT90q/psuB66tP93wEDv/HHLPCFA083i1j0diIJbisbq945rSmgphGCnxsVGTlRfIziZ8SoBXn+6oDPwOvOywAYnc9QdWkxen1dsfXLjnb8KQak555W9pVvqvrRh7ugMbw5jAhhq+1QGQTMVSpszvIEwpFZqW58ixHhQMZkR4jy3s+ogFs7rO74k/EIjBcI7+waX8jQZXHCqlwAAAABJRU5ErkJggg==",
+        "selectedIconData": "iVBORw0KGgoAAAANSUhEUgAAADcAAAA2CAMAAABUWfHRAAABC1BMVEUAAABXsfZRqPdcsPRbr/NcsfVcr/NcsfNdsfRdr/NcsPNcsfNdsPNcsPKclPdisveUmPhUtfJfr/NtqfRsq/VVtvKApPhdsPOlkfmvjPmoj/hZtPNdsvN+ofRWtfNrq/SBovVZtPJWtvJuq/WlkfhyqfWlk/lvqfOujPmAovWikfd0qPR2pvWDofaujfmCnvSik/dxqfV6pfVisPSelPiikviVmfeal/eGn/aNnPZWtvOsjvlbtPNqrfRnrvSvjPmAofZ3pvV0p/Vtq/Spj/iRmveCofaKnvZ+o/WmkPhfsvNdsvLf5/3W3vzK2Pv1+P7s8v7A0Pu3x/rn7v3I0ft9qfXM4Puwvvmps/jxIRlTAAAAMXRSTlMACAQQFAwyGCQ+Kxw5H2QgSN1FWEjcR1hc+PKzk4N+YcrJvbaVdin48O7k2MWrpFwhGpoKMQAAAi9JREFUSMfV1Hl30kAUBXCzzgxJGkyrlL27+0LpGlYVrdqWFizW7/9JvDNAJsQemNBzPO3lX37nvnnvwJNHGYcFa5M8Hycrs6fdjfTc5s96vd1ufanVPn/a3+92v52cnJ2efj06Oj4+ODg8LOx8vEOZxeZ5Ha41dd+T7kevsK4nmbHZbJ6Lvjmu0UhAXSuFE9ea6/J7+gyjYRiq9HXea3rcVVRd3gSMmLUFttj1Gp1ONu6MZ6HS++DWLcBpnZnCGdIZRM31uDMtLXIOXIi7L95LZ0U6C06pTziCQe/lsBYPLlzGPZ29X21Jp953/zn/r5Nzdpdwv/v9/mAwGA6Ht38U79cW7urq+tfFxeVl/wZOvW8kXbr3ja7H7ib1XkbD/uD2TO3u6e9QVL5fdsZVVF2exp3DVH9/O9Lx/wlaUXMvWcLZW0puJePH/5eIn3FLi99X+GBTx5DOMlHo5orz+16XAzsTjYlootB2WZBDSrNuo7o6CWMu6kwLLirECwFdxlgQbMfduyAImAiUTf1pnZzUz2RsQddeSFcGcnmAMKRnGlbcYTUG8SgVlFUjtytaIHio75AJk4UY1SSOTykk2564KhRaEN/3PYdEbQkpKCR7w92rVQbFWwgxEQNKsCQcU4fD3bcb5cAVyjR4LMvSoOJMvlKUCsg3y5lHDEPjSaJ/W8cQAUMZ/74OAjQ3AvpU7E+wBJjbSDzsD0qVyZsgUqlCSERLweRi5QLTWXweUP4CGflZEhbb/X4AAAAASUVORK5CYII="
+      },
+      {
+        "pagePath": "pages/my/my/index.html",
+        "text": "我的",
+        "iconData": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAUVBMVEUAAABeXl5VVVViYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJhYWFgYGBiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJgYGBjY2NiYmJpt4EfAAAAGnRSTlMAHAjs98te4J4ko5VyRBDBTX+3j9NrYzcvox0NB+IAAAGuSURBVEjHrVZLFoMgDER+ilSsv2q5/0FrUEipCi46Kx5kZCaEIPkXjLkdWkgtmF3BRCWLbLhsuf1GK2kq/FXaA9h0SZnHEMUZQ4pYzuMffF/vmoKCmaYTO/1xFl9ta1pFGRi2r9QHWbTfFopD0moL6H8Zb+fvSU7wdHaqH/0wV6qLk3G5i3wsHOJBzjWDz18GBOhJnKoCVSPamGBL1H/mAyJeYQPg1ySJGjT7LSQoLJzYvm22b2jxiG2AS0k2tOt4cKN+ZRqfNaAiNFTiTgZ9m+PSjyr/PfTtZARFguQIRIQpWOzyhG6d0oHa5AlNEMKCBSL8cIgIwSpzGQTP/nz4vqsqraAxgUJiYc54JsAov6yieK/EICEHJIAkTkkeFiSh6STQNKY1C0yrxoNLoXP3FEsjBSwNrFyVt4BWW1clGQxY3niBEoguEC3vXVFGQ9O+1wQmrKsR+CohiFkbVeN8p5EtcatMMBS2SkSVa8b1ebt/Z9s9MrYFPkQUpbkFVDTzZJHEk4VYhA1gjIfxOJML0InZA8pX6jpS2UbRHB72DApZ+V8HLQtyE9QYSv6DD6c5MyTfbIH5AAAAAElFTkSuQmCC",
+        "selectedIconData": "iVBORw0KGgoAAAANSUhEUgAAADkAAAA5CAMAAAC7xnO3AAABXFBMVEUAAABKpO1Zr/NZsvhYrvRcsvNasPJbsPJbsPJZr/JXrvFYr/Nbr/Jcr/NbsPJdsfRcr/JervJVtvOdlPhVtvNZtPOInfaujPiXl/erjviOm/atjfmek/dfsfOkkPiQmfZhsPOEn/ZWtPJcsvOokPhhr/OSmveCnvOpj/llrvR8pPVyqPRnrPN0p/WclPdyqPRrq/RWt/NxqfRoq/RirPJzp/WelPeGn/Vtq/SHnvWsjfhZtfKHnvVfsPKGoParjvl3pvWclfaNnPZ7pPV2pvSSmveYl/d/ovWclfeGn/ZyqPRprfRisPOgk/ddsvOoj/isjfhZtPOJnfaVmPdVtvKkkfiDoPVlrvNsq/RvqfSvjPlvqvT5/P7V5/z////L2fvB0fp8rvXn8f3p7v3E3frb4/y41fq11fq7zPmvwfmlufiAs/W3yfmfsfiawvfd6/ymzfiMp/aDtvWHqPV3a+4tAAAAQnRSTlMABBIJDB0rNSEmGRY8QT4xOUfOdeqkYuzl1MvIubmmlZSMfnRqZDop+vrs3NjOzLyLaWFXUfr38O3n4dzWybOgmIkPtgNMAAAC1ElEQVRIx93UV3faQBAF4KxQRaIX9957Te/uNu6BxDbVgBt2+v8/J7MiaNgsSJtXz4v98p17dzSHJ49niCSR/0bK8oe56e3tz7svuweSinjW8sLTjY31dSp3T9fWNruTsojzjc2c7+0xcvNTZ8znCa3Z1FmWk1tb8+PEvejIVCp1hpkod57FiIvzJfa/tJM7B/0yaQflvn03men1kdaQJA5d5UGmn5CWcOTQSx7FgPJQO2nIbFs5Oc5TIkVPvDOPumTCrXUEoGfm0fGoj7CQSHGU5y7ylUQIG7mUPvnb9j7//VtdFiu3nGRDAcpRR+YLhdwllbeFQqHGyR6ZUpRG2pHlXC53T2UR/rnj5PEEI+UllPlyuWzLUqVS4eXFqEyaIqUEymo+n7fbPlxdXdV4+V6CUJRRlDfVatWWd8Vi8SsveySZ4H7MOMofN9fXtqyVSqUWssNskpKSRvnr5rr+VX7flh5OeXmhQF1HGk0ylb1sXMLPfy4hQ+XxRLNUUXI3xGU2SVnShSVQXZIdaSpx8cwOhZFR8cwuJ5NAWyUhJDNU9mNbKoebZda1bUxhZFD8neNU4iUY0bTrbwK27TGYS/Abw6JtY4afkXooLiY7NB0l/Sy6Oiz2zo+qXr94fKj2WiSzK9x4JtZVxwQyJ5OqXRYlXJGqDXpfwoCm4jfBUK3Pq21v2InEUHhpyHrrnjkfCBkQiRJDA31usjegMZHO1fsNVbMGp9q2HbBsKBOU2Bfo2Gxr2ZkEiF3ZvqZNI4Mv+LadQwEbmtgVZYOGg5HFOVZ2D0WCYYStqa6GNCsYWFlcmJmm8vmbd0MrgaClhVTdhihZChumsWBhIqurkQj8BQeBsByEPIUNQ6waAmwF7bGsMORBIGyVhdyGqTUorg9lBnX8VvlYE6xugKZjGHrDAXSl1AL2K4qiKzB+v0kdQlcLmI4JRqozdJ4YtD0+QYYYR4yJzx8qmNH9tLfi+gAAAABJRU5ErkJggg=="
+      }
+    ]
+  },
+  "renderer": {
+    "allUsed": ["webview"],
+    "default": "webview"
+  },
+  "requiredPrivateInfos": ["getLocation", "chooseLocation"],
+  "componentFramework": {
+    "allUsed": ["exparser"],
+    "default": "exparser"
+  }
+}

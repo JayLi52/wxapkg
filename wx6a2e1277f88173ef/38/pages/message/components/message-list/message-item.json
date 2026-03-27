@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "my-avatar-index": "../../../../components/avatar/index",
+    "my-cache-image-index": "../../../../components/cache-image/index",
+    "up-icon": "../../../../node-modules/uview-plus/components/u-icon/u-icon",
+    "dot": "./dot"
+  }
+}

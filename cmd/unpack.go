@@ -209,7 +209,7 @@ func fileBeautify(name string, data []byte) (result []byte) {
 }
 
 func parseWxid(root string) (string, error) {
-	var regAppId = regexp.MustCompile(`(wx[0-9a-f]{16})`)
+	var regAppId = regexp.MustCompile(`(wx[0-9a-f]{16}|wxid_[0-9a-zA-Z_]+)`)
 	if !regAppId.MatchString(filepath.Base(root)) {
 		return "", errors.New("the path is not a mini program path")
 	}

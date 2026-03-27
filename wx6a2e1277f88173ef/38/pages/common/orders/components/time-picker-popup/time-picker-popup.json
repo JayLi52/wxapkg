@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "up-popup": "../../../../../node-modules/uview-plus/components/u-popup/u-popup",
+    "time-picker-item": "./time-picker-item"
+  }
+}
